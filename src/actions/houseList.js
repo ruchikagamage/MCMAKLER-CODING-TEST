@@ -15,7 +15,7 @@ export function getHouseList() {
       } else {
         dispatch({
           type: ListType.HOUSE_LIST_ERROR,
-          payload: "OPPZz ! SOMETHING WENT WRONG"
+          payload: "ERROR"
         });
       }
     });

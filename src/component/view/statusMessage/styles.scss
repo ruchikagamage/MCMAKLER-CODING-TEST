@@ -1,11 +1,20 @@
 @import './../../../styles/scss/_vb.scss';
 
-.error-message{
+.status-message{
   text-align: center;
   margin: 0 auto;
   padding: 20vh 10vh;
-    &-text{
+    &-error{
       color : $error ;  
+    }
+    &-warning{
+      color: $warning;
+    }
+    &-info{
+      color: $info;
+    }
+    &-sucess{
+      color: $sucess;
     }
     &-icon{
       width:100px;

@@ -18,9 +18,6 @@ class ListItem extends Component {
     let rooms = this.props.item.realestateSummary.numberOfRooms;
     let space = this.props.item.realestateSummary.space.toFixed(0);
     let sellPrice = this.props.item.advertisementPrice.sellPrice;
-
-    const advertisementAssets = this.props.item.advertisementAssets;
-    console.log(typeof advertisementAssets);
     let coverImage = this.props.item.advertisementAssets[0]
       ? this.props.item.advertisementAssets[0].advertisementThumbnails
           .inventory_m.url
@@ -41,7 +38,7 @@ class ListItem extends Component {
               }}
             >
               <div className="list-header-button-panal">
-                <button className="btn btn-default click">Mieten</button>
+                <button className="btn click">Mieten</button>
               </div>
             </div>
             <div className="list-footer">
