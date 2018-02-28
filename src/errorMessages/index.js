@@ -1,4 +1,4 @@
 module.exports = {
-    ERROR_01 : 'OPPZz ! SOMETHING WENT WRONG',
+    ERROR_01 : 'OOPS ! SOMETHING WENT WRONG',
     ERROR_02 :'SORRY !! NO RECORD TO DISPLAY',
 }
