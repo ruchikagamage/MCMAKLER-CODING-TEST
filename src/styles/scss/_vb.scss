@@ -1,0 +1,23 @@
+$base_color: #ffffff;
+$border_color: #eaeaea;
+$action_color: #111111;
+$second_action_color: #b3b3b3;
+$second_color: #fafafa;
+
+$box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
+// grid variables
+$grid-columns: 12;
+$grid-max-width: 100%;
+$base-font-size: 12px;
+$heading-scale: 2;
+
+// breakpoints
+$breakpoint-small: "only screen and (min-width: 960px)";
+$breakpoint-medium: "only screen and (min-width: 960px)";
+
+$b-xs: "only screen and (max-width: 575px)";
+$b-s: "only screen and (min-width: 576px) and (max-width: 767px)";
+$b-m: "only screen and (min-width: 768px) and (max-width: 991px)";
+$b-l: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$b-xl: "only screen and (min-width: 1200px)";

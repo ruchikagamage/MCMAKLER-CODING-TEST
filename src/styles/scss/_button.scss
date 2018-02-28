@@ -1,0 +1,62 @@
+.btn {
+  padding: 12px 20px;
+  border-radius: 3px;
+  background-color: $base_color;
+  border: none;
+  color: $second_action_color;
+  position: relative;
+  overflow: hidden;
+  box-shadow: $box-shadow;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+.btn:hover,
+.btn:focus {
+  background-color: $border_color;
+  outline: 0 !important;
+}
+
+.btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -200%;
+  right: -25%;
+  width: 150%;
+  height: 500%;
+  background: $second_action_color;
+  border-radius: 100%;
+  opacity: 0;
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.6;
+  }
+  30% {
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+.click:not(:active):after {
+  animation: ripple 2s ease-out;
+}
+
+.hover:hover:after {
+  animation: ripple 2s ease-out;
+}
+
+/* fixes initial animation run, without user input, on page load.
+ */
+.btn:after {
+  visibility: hidden;
+}
+
+.btn:focus:after {
+  visibility: visible;
+}

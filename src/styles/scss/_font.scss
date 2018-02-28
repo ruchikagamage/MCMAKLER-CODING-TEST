@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: $base-font-size + $heading-scale * (6 - $i);
+    font-family: Roboto;
+  }
+}
+@media #{$b-l} {
+  @for $i from 1 through 6 {
+    h#{$i} {
+      font-size: $base-font-size + $heading-scale * (4.5 - $i);
+      font-family: Roboto;
+    }
+  }
+}
+
+@media #{$b-xs} {
+  @for $i from 1 through 6 {
+    h#{$i} {
+      font-size: $base-font-size + $heading-scale * (5 - $i);
+      font-family: Roboto;
+    }
+  }
+}
+
+.base-color {
+  color: $base_color;
+}
+.border-color {
+  color: $border_color;
+}
+.action-color {
+  color: $action_color;
+  opacity: 0.7;
+}
+.second-ction-color {
+  color: $second_action_color;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-regular {
+  font-weight: 400;
+}
+.font-light {
+  font-weight: 300;
+}

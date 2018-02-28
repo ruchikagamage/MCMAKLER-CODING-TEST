@@ -1,0 +1,61 @@
+@import './../../styles/scss/_vb.scss';
+
+.list {
+  &-header {
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+
+    &-button-panal {
+      margin: 20px;
+    }
+  }
+
+  &-image {
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-height: 300px;
+  }
+ 
+  &-title {
+    // height: 50px;
+  }
+  &-address {
+    // height: 20px;
+  }
+  &-footer {
+    padding: 50px 30px;
+  }
+  &-main-content{
+    height:95px;
+    }
+}
+
+.bottom-section{
+    padding: 15px 0;
+    top: 0px;
+    &-item {
+        float: left;
+        height: 35px;
+      }
+    &-item:nth-child(1) {
+        width: 50%;
+      }
+    &-item:nth-child(2) {
+        width: 25%;
+        border-right: 1px solid $border_color;
+        text-align: center;
+        opacity: 0.8;
+      }
+    &-item:nth-child(3) {
+        width: 25%;
+        text-align: center;
+        opacity: 0.8;
+      }
+      
+
+}
+

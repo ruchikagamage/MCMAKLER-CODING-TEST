@@ -1,0 +1,65 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  @include border-box;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper,
+.row {
+  @extend %clearfix;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 20px 20px 10px 20px;
+  width: 100%;
+  min-height: 1px;
+}
+
+@media #{$b-xl} {
+  .wrapper {
+    width: 95%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-columns {
+    .col-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
+  }
+}
+@media #{$b-l} {
+  .wrapper {
+    width: 100%;
+    max-width: $grid-max-width;
+  }
+  @for $i from 1 through $grid-columns {
+    .col-#{$i} {
+      width: 100% / $grid-columns * $i;
+    }
+  }
+}
+@media #{$b-m} {
+  .wrapper {
+    width: 80%;
+    max-width: $grid-max-width;
+  }
+}
+@media #{$b-s} {
+  .wrapper {
+    width: 90%;
+    max-width: $grid-max-width;
+  }
+}
+@media #{$b-xs} {
+  .wrapper {
+    width: 100%;
+    max-width: $grid-max-width;
+  }
+}

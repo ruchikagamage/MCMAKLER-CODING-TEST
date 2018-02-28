@@ -1,0 +1,19 @@
+.body {
+  font-family: Roboto;
+}
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important;
+}
+
+@for $i from 1 through 20 {
+  .margin-top-#{$i} {
+    margin-top: 1px * $i;
+  }
+}
+@for $i from 1 through 15 {
+  .padding-#{$i} {
+    margin-top: 1px * $i;
+  }
+}

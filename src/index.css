@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+.body {
+  font-family: Roboto; }
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto !important; }
+
+.margin-top-1 {
+  margin-top: 1px; }
+
+.margin-top-2 {
+  margin-top: 2px; }
+
+.margin-top-3 {
+  margin-top: 3px; }
+
+.margin-top-4 {
+  margin-top: 4px; }
+
+.margin-top-5 {
+  margin-top: 5px; }
+
+.margin-top-6 {
+  margin-top: 6px; }
+
+.margin-top-7 {
+  margin-top: 7px; }
+
+.margin-top-8 {
+  margin-top: 8px; }
+
+.margin-top-9 {
+  margin-top: 9px; }
+
+.margin-top-10 {
+  margin-top: 10px; }
+
+.margin-top-11 {
+  margin-top: 11px; }
+
+.margin-top-12 {
+  margin-top: 12px; }
+
+.margin-top-13 {
+  margin-top: 13px; }
+
+.margin-top-14 {
+  margin-top: 14px; }
+
+.margin-top-15 {
+  margin-top: 15px; }
+
+.margin-top-16 {
+  margin-top: 16px; }
+
+.margin-top-17 {
+  margin-top: 17px; }
+
+.margin-top-18 {
+  margin-top: 18px; }
+
+.margin-top-19 {
+  margin-top: 19px; }
+
+.margin-top-20 {
+  margin-top: 20px; }
+
+.padding-1 {
+  margin-top: 1px; }
+
+.padding-2 {
+  margin-top: 2px; }
+
+.padding-3 {
+  margin-top: 3px; }
+
+.padding-4 {
+  margin-top: 4px; }
+
+.padding-5 {
+  margin-top: 5px; }
+
+.padding-6 {
+  margin-top: 6px; }
+
+.padding-7 {
+  margin-top: 7px; }
+
+.padding-8 {
+  margin-top: 8px; }
+
+.padding-9 {
+  margin-top: 9px; }
+
+.padding-10 {
+  margin-top: 10px; }
+
+.padding-11 {
+  margin-top: 11px; }
+
+.padding-12 {
+  margin-top: 12px; }
+
+.padding-13 {
+  margin-top: 13px; }
+
+.padding-14 {
+  margin-top: 14px; }
+
+.padding-15 {
+  margin-top: 15px; }
+
+.wrapper,
+.row {
+  *zoom: 1; }
+  .wrapper:before,
+  .row:before, .wrapper:after,
+  .row:after {
+    content: " ";
+    display: table; }
+  .wrapper:after,
+  .row:after {
+    clear: both; }
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto; }
+
+[class*="col-"] {
+  float: left;
+  padding: 20px 20px 10px 20px;
+  width: 100%;
+  min-height: 1px; }
+
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    width: 95%;
+    max-width: 100%; }
+  .col-1 {
+    width: 8.33333%; }
+  .col-2 {
+    width: 16.66667%; }
+  .col-3 {
+    width: 25%; }
+  .col-4 {
+    width: 33.33333%; }
+  .col-5 {
+    width: 41.66667%; }
+  .col-6 {
+    width: 50%; }
+  .col-7 {
+    width: 58.33333%; }
+  .col-8 {
+    width: 66.66667%; }
+  .col-9 {
+    width: 75%; }
+  .col-10 {
+    width: 83.33333%; }
+  .col-11 {
+    width: 91.66667%; }
+  .col-12 {
+    width: 100%; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .wrapper {
+    width: 100%;
+    max-width: 100%; }
+  .col-1 {
+    width: 8.33333%; }
+  .col-2 {
+    width: 16.66667%; }
+  .col-3 {
+    width: 25%; }
+  .col-4 {
+    width: 33.33333%; }
+  .col-5 {
+    width: 41.66667%; }
+  .col-6 {
+    width: 50%; }
+  .col-7 {
+    width: 58.33333%; }
+  .col-8 {
+    width: 66.66667%; }
+  .col-9 {
+    width: 75%; }
+  .col-10 {
+    width: 83.33333%; }
+  .col-11 {
+    width: 91.66667%; }
+  .col-12 {
+    width: 100%; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .wrapper {
+    width: 80%;
+    max-width: 100%; } }
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .wrapper {
+    width: 90%;
+    max-width: 100%; } }
+
+@media only screen and (max-width: 575px) {
+  .wrapper {
+    width: 100%;
+    max-width: 100%; } }
+
+h1 {
+  font-size: 22px;
+  font-family: Roboto; }
+
+h2 {
+  font-size: 20px;
+  font-family: Roboto; }
+
+h3 {
+  font-size: 18px;
+  font-family: Roboto; }
+
+h4 {
+  font-size: 16px;
+  font-family: Roboto; }
+
+h5 {
+  font-size: 14px;
+  font-family: Roboto; }
+
+h6 {
+  font-size: 12px;
+  font-family: Roboto; }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  h1 {
+    font-size: 19px;
+    font-family: Roboto; }
+  h2 {
+    font-size: 17px;
+    font-family: Roboto; }
+  h3 {
+    font-size: 15px;
+    font-family: Roboto; }
+  h4 {
+    font-size: 13px;
+    font-family: Roboto; }
+  h5 {
+    font-size: 11px;
+    font-family: Roboto; }
+  h6 {
+    font-size: 9px;
+    font-family: Roboto; } }
+
+@media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 20px;
+    font-family: Roboto; }
+  h2 {
+    font-size: 18px;
+    font-family: Roboto; }
+  h3 {
+    font-size: 16px;
+    font-family: Roboto; }
+  h4 {
+    font-size: 14px;
+    font-family: Roboto; }
+  h5 {
+    font-size: 12px;
+    font-family: Roboto; }
+  h6 {
+    font-size: 10px;
+    font-family: Roboto; } }
+
+.base-color {
+  color: #ffffff; }
+
+.border-color {
+  color: #eaeaea; }
+
+.action-color {
+  color: #111111;
+  opacity: 0.7; }
+
+.second-ction-color {
+  color: #b3b3b3; }
+
+.font-bold {
+  font-weight: 700; }
+
+.font-medium {
+  font-weight: 500; }
+
+.font-regular {
+  font-weight: 400; }
+
+.font-light {
+  font-weight: 300; }
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: none;
+  color: #b3b3b3;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s ease; }
+
+.btn:hover,
+.btn:focus {
+  background-color: #eaeaea;
+  outline: 0 !important; }
+
+.btn:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -200%;
+  right: -25%;
+  width: 150%;
+  height: 500%;
+  background: #b3b3b3;
+  border-radius: 100%;
+  opacity: 0; }
+
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.6; }
+  30% {
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(1); } }
+
+.click:not(:active):after {
+  animation: ripple 2s ease-out; }
+
+.hover:hover:after {
+  animation: ripple 2s ease-out; }
+
+/* fixes initial animation run, without user input, on page load.
+ */
+.btn:after {
+  visibility: hidden; }
+
+.btn:focus:after {
+  visibility: visible; }
+
+@-webkit-keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0; }
+  100% {
+    background-position: 468px 0; } }
+
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0; }
+  100% {
+    background-position: 468px 0; } }
+
+.animated-background {
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: placeHolderShimmer;
+  animation-name: placeHolderShimmer;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  background: #f6f7f8;
+  background: #eeeeee;
+  background: -webkit-gradient(linear, left top, right top, color-stop(8%, #eeeeee), color-stop(18%, #dddddd), color-stop(33%, #eeeeee));
+  background: -webkit-linear-gradient(left, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  position: relative; }

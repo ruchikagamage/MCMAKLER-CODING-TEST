@@ -1,0 +1,8 @@
+@import './../../../styles/scss/_vb.scss';
+.card{
+    border: 1px solid $border_color ;
+    min-height: 1px;
+    width: 100%;
+    border-radius: 1px;
+    max-height: 530px;
+}
