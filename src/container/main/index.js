@@ -35,7 +35,7 @@ class Main extends Component {
   }
 
   errorMsg(data) {
-    return <div>{data}</div>;
+    return <h2>{data}</h2>;
   }
 
   render() {

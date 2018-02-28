@@ -4,15 +4,17 @@
 
 ## Instructions
 
-To run this project you need to install node.js first (https://nodejs.org/en/).
+To run this project you need to install node.js first in your machine by going to the official nodejs website. (https://nodejs.org/en/)
 
 In the project directory, you can run:
 
-### `npm install`
+### `npm install` [This will install all the node packages which is installed in the package.json]
+
+After installing those node packages run below command to execute the project.
 ### `npm start`
 
 ## Why ReactJS with Redux? 
-ReactJS is an open source JavaScript library for creating rich and engaging web applications fast and more efficiently with minimal coding. The core objective of ReactJS is providing the best possible rendering performance. Its strength comes from the focus on individual components. Instead of working on the entire web appplication, ReactJS allows a developer to break down the complex UI into simpler components.So in this project I used ReactJS to buid all UI components and reuse the codes to complete project faster.
+ReactJS is an open source JavaScript library for creating rich and engaging web applications fast and more efficiently with minimal coding. The core objective of ReactJS is providing the best possible rendering performance. Its strength comes from the focus on individual components. Instead of working on the entire web appplication, ReactJS allows a developer to break down the complex UI into simpler components.So in this project I've used ReactJS to buid all UI components and re-used those codes to complete project much faster.
 
 This is the main reasons to choose ReactJS
 -  It's allow to write their apps within JavaScript (JSX).
@@ -34,7 +36,7 @@ Just like with any language, writing CSS without a well-defined architecture and
 - Non-deterministic Resolution
 - Isolation
 
-using proper organization and architecture in SCSS can mitigate these problems, especially within the context of styling React components. In this application I used two type of SCSS files Those are common SCSS and compnent base SCSS.
+using proper organization and architecture in SCSS can mitigate these problems, especially within the context of styling React components. In this application I used two type of SCSS files Those are common SCSS and component base SCSS.
 
 Simple example for modular SCSS file and how it used in ReactJS component.
 
