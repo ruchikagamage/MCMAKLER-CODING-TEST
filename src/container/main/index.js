@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Wrapper } from "./../../component/view";
+import { Wrapper, ErrorMessage } from "./../../component/view";
 import ListItem from "./../../component/listItem";
 import { connect } from "react-redux";
 import * as HouseList from "./../../actions/houseList";
@@ -20,7 +20,7 @@ class Main extends Component {
 
   componentWillReceiveProps(nextProps) {
     if (nextProps.houses) {
-      if (nextProps.houses === "Something Went Wrong") {
+      if (nextProps.houses === "OPPZz ! SOMETHING WENT WRONG") {
         this.setState({ errorMessage: nextProps.houses });
       } else {
         this.setState({ hosueList: nextProps.houses });
@@ -35,7 +35,7 @@ class Main extends Component {
   }
 
   errorMsg(data) {
-    return <h2>{data}</h2>;
+    return <ErrorMessage>{data}</ErrorMessage>;
   }
 
   render() {

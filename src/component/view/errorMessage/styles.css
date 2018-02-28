@@ -1,0 +1,9 @@
+.error-message {
+  text-align: center;
+  margin: 0 auto;
+  padding: 20vh 10vh; }
+  .error-message-text {
+    color: #e45353; }
+  .error-message-icon {
+    width: 100px;
+    margin-top: 30px; }

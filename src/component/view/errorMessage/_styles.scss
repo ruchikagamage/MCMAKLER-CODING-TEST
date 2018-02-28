@@ -1,0 +1,14 @@
+@import './../../../styles/scss/_vb.scss';
+
+.error-message{
+  text-align: center;
+  margin: 0 auto;
+  padding: 20vh 10vh;
+    &-text{
+      color : $error ;  
+    }
+    &-icon{
+      width:100px;
+      margin-top:30px;
+    }
+}
